@@ -11,7 +11,9 @@ confile=$base".conf"
 mkdir "tmp"
 
 textfle=$base".txt"
-mv $textfle "tmp/BookText"
+cp $textfle "tmp/BookText"
+
+cp $confile "tmp/Conf"
 
 dbfile=$base".TDB"
 mv $dbfile "tmp/SearchDB"
@@ -21,7 +23,6 @@ mv $lmfile "tmp/LevelMap"
 
 zipfile=`pwd`"/"$base".obk"
 
-mv $confile "tmp/Conf"
 
 cd tmp
 
