@@ -13,11 +13,8 @@ cd $outDir
 
 for f in `find . -iname "*.txt"`
 do
-    echo "Creating DB for: "$f
-    ./orayta -D $f
-    ./genBook.sh $f
+    ./compile-book.sh $f
 done
-
 
 #Change folder's ".conf" files to ".folder" files
 for f in `find . -iname "*.conf"`
