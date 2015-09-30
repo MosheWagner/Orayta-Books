@@ -16,7 +16,7 @@
 # try also:
 # find . -type f ! -path "*.svn*" -exec md5sum {} +
  
-# Book URL: https://orayta.googlecode.com/svn/books/@BOOKURL 
+# Book URL: https://raw.githubusercontent.com/MosheWagner/Orayta-Books/master/books/@BOOKPATH 
  
  
 @ מקרא 
@@ -744,18 +744,19 @@
 ./080_poskim_ahronim/070_kizor_ilkot_iosp/107_KITZUR_YALKUT_YOSEF_YD.obk, 1103841, 30/09/15, 3fa2b0103c6e433c447ca04078e9fe56
 ./080_poskim_ahronim/070_kizor_ilkot_iosp/108_KITZUR_YALKUT_YOSEF_HM.obk, 94748, 30/09/15, e13ed66ddacb10d4c4621c3f98f13275
 ./080_poskim_ahronim/070_kizor_ilkot_iosp/109_KITZUR_YALKUT_YOSEF_EH.obk, 171916, 30/09/15, 728f67b6add5f8d504ba332203233982
-./080_poskim_ahronim/101_pnini_halacha/01_Moadim/PniniHalachaMoadim.obk, 295489, 30/09/15, 43d1a12742dfb4ae650c73a649d8355b
-./080_poskim_ahronim/101_pnini_halacha/05_Zmanim/PniniHalachaZmanim.obk, 479216, 30/09/15, 62a424ddc6b53262cbd806fcd11d9ce9
-./080_poskim_ahronim/101_pnini_halacha/08_Brachot/PniniHalachaBrachot.obk, 479154, 30/09/15, 84829ff97f36869d8b7a6033af4d776c
-./080_poskim_ahronim/101_pnini_halacha/02_Pesach/PniniHalachaPesach.obk, 337957, 30/09/15, 8d4563699ab226cc7ae0ae74818e00a1
-./080_poskim_ahronim/101_pnini_halacha/04_Shabbat/PniniHalachaShabbat.obk, 782012, 30/09/15, 08c60d06baf485d326ed1a13fc49df73
-./080_poskim_ahronim/101_pnini_halacha/12_LikutimC/PniniHalachaLikutimC.obk, 392794, 30/09/15, 2035a8715340a5e7ba3d9d2a6e69fa23
-./080_poskim_ahronim/101_pnini_halacha/03_Sukot/PniniHalachaSukot.obk, 194424, 30/09/15, 4597a2b1834e7bddab81406f5fc6b645
-./080_poskim_ahronim/101_pnini_halacha/10_LikutimA/PniniHalachaLikutimA.obk, 336231, 30/09/15, b97361b1c5deb01a440e0f16caf598c5
-./080_poskim_ahronim/101_pnini_halacha/11_LikutimB/PniniHalachaLikutimB.obk, 379927, 30/09/15, 659136ff4eb2ac99547d1541416f75da
-./080_poskim_ahronim/101_pnini_halacha/07_TfilatNashim/PniniHalachaTfilatNashim.obk, 319529, 30/09/15, 0f0249dc180f544686d4835149c66d23
-./080_poskim_ahronim/101_pnini_halacha/09_IL/PniniHalachaIL.obk, 392828, 30/09/15, 29b8e59b5daff9a2eb69e4e7972b4227
-./080_poskim_ahronim/101_pnini_halacha/06_Tfila/PniniHalachaTfila.obk, 451242, 30/09/15, c799ec4f9b3e981ed4c74b507c857506
+./080_poskim_ahronim/101_pnini_halacha.folder, 31, 30/09/15, 6965c8284fb1ad399f3e08e94639e866
+./080_poskim_ahronim/101_pnini_halacha/01_Moadim.obk, 295489, 30/09/15, 4966b8b23b5ebb2961478e6fbe978e5a
+./080_poskim_ahronim/101_pnini_halacha/05_Zmanim.obk, 479216, 30/09/15, 03b97c7a95a81836f5b2b3b0d856efe7
+./080_poskim_ahronim/101_pnini_halacha/08_Brachot.obk, 479154, 30/09/15, 84e4378c1d6eb9d56e4670991f4d1eac
+./080_poskim_ahronim/101_pnini_halacha/02_Pesach.obk, 337957, 30/09/15, c5cc8c01e18d49b7c369a7e6a346f8ea
+./080_poskim_ahronim/101_pnini_halacha/04_Shabbat.obk, 782012, 30/09/15, 4c1319c488485fbb20f4a76f9b545687
+./080_poskim_ahronim/101_pnini_halacha/12_LikutimC.obk, 392794, 30/09/15, 2035a8715340a5e7ba3d9d2a6e69fa23
+./080_poskim_ahronim/101_pnini_halacha/03_Sukot.obk, 194424, 30/09/15, a2dc080297e163cefa375fd49148315c
+./080_poskim_ahronim/101_pnini_halacha/10_LikutimA.obk, 336231, 30/09/15, 7bc762dbc97422fee8f7a1b088068089
+./080_poskim_ahronim/101_pnini_halacha/11_LikutimB.obk, 379927, 30/09/15, cdeaaaba55f2fc2258218e9998525dd7
+./080_poskim_ahronim/101_pnini_halacha/07_TfilatNashim.obk, 319529, 30/09/15, ed797083f61bd43a455a66ab05e927b9
+./080_poskim_ahronim/101_pnini_halacha/09_IL.obk, 392828, 30/09/15, ad776357f2f448ef29687a83d7c0fce3
+./080_poskim_ahronim/101_pnini_halacha/06_Tfila.obk, 451242, 30/09/15, 359f10ef3ff898d9b5cf25f1f5d4a28a
 ./080_poskim_ahronim/105_kitzur.obk, 752263, 30/09/15, 2547183f73270461827bc2da3328bb0a
  
 @ מוסר 
