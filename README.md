@@ -25,4 +25,4 @@ All this does is copy the files to /usr/share/Orayta/Books, so you could always 
 
 If you'd like to support Orayta, please donate!
 
-* <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=LVG9EY5BNHDJN&amp;lc=TR&amp;item_name=open-source&amp;item_number=markdown-editing&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="[paypal]" /></a>
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J5WRJJ72JMKKW"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="[paypal]" /></a>
