@@ -17,8 +17,5 @@ mv $tmp"LevelMap" $base".LMP"
 mv $tmp"conf" $base".conf" 
     
 #cleanup:
-    
-#(when you're sure it works:
-rm $1
 
 rm -r $tmp

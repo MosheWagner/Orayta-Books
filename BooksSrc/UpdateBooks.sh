@@ -4,8 +4,13 @@ compiledPathPrefix="../books/"
 
 for f in `find . -iname "*.txt"`
 do
+    confPath=${f/txt/conf}
     newObkPath=${f/txt/obk}
     existingObkPath=$compiledPathPrefix${f%/*}"/"${newObkPath##*/}
+    
+    if [[ $confPath -nt $f ]]; then
+        touch $f
+    fi
     
     if [[ $f -nt $existingObkPath ]]; then
         echo "Compiling"$newObkPath

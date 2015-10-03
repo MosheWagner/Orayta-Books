@@ -3,7 +3,10 @@
 # Turns the given book into obk format
 
 #Remove file suffix
-base=`echo $1 | sed 's/[.][/]//g' | sed -e 's/[.].*//g'`
+
+cd "$(dirname "$0")"
+
+base=`pwd`/`echo $1 | sed 's/[.][/]//g' | sed -e 's/[.].*//g'`
 
 ./orayta -D $1
 
@@ -23,7 +26,7 @@ mv $dbfile "tmp/SearchDB"
 lmfile=$base".LMP"
 mv $lmfile "tmp/LevelMap"
 
-zipfile=`pwd`"/"$base".obk"
+zipfile=$base".obk"
 
 
 cd tmp
