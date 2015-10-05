@@ -28,7 +28,7 @@ il=$il"\t@\$(CHK_DIR_EXISTS) \$(DESTDIR)/usr/share/Orayta/Books/ || \$(MKDIR) \$
 
 rml="uninstall_books:\n" 
 
-l=$l`find * -name '*_*' -prune | sed 's/\(.*\)/\x27\1\x27/g'`
+l=$l`find books/ -name '*_*' -prune | sed 's/\(.*\)/\x27\1\x27/g'`
 l=$l" Pics"
 for j in $l; 
     do il=$il"\t\$(COPY) "$j" \$(DESTDIR)/usr/share/Orayta/Books/\n";
