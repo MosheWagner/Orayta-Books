@@ -59,7 +59,6 @@ install_books:
 	$(COPY) 'books/020_msnh.folder' $(DESTDIR)/usr/share/Orayta/Books/
 	$(COPY) 'books/090_mosr.folder' $(DESTDIR)/usr/share/Orayta/Books/
 	$(COPY) 'books/090_mosr' $(DESTDIR)/usr/share/Orayta/Books/
-	$(COPY) Pics $(DESTDIR)/usr/share/Orayta/Books/
 	chmod 777 $(DESTDIR)/usr/share/Orayta/Books
 
 uninstall_books:
@@ -105,5 +104,4 @@ uninstall_books:
 	$(RM) $(DESTDIR)/usr/share/Orayta/Books/'books/020_msnh.folder'
 	$(RM) $(DESTDIR)/usr/share/Orayta/Books/'books/090_mosr.folder'
 	$(RM) $(DESTDIR)/usr/share/Orayta/Books/'books/090_mosr'
-	$(RM) $(DESTDIR)/usr/share/Orayta/Books/Pics
 
