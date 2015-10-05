@@ -9,6 +9,7 @@ export DH_VERBOSE=1
 
 build: build-stamp
 build-stamp:
+	cd books/
 	dh_testdir
 	# Add here commands to compile the package.
 	#Delete all svn files:
