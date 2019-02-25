@@ -13,14 +13,6 @@ All this does is copy the files to /usr/share/Orayta/Books, so you could always 
  # cp -r -f ./ /usr/share/Orayta/
 
 
-<script async="async" src="https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=orayta.books@gmail.com" 
-    data-button="buynow" 
-    data-name="Donate to Orayta" 
-    data-quantity="1" 
-    data-amount="5" 
-    data-currency="USD" >
-</script>
-
 ## Donation
 
 If you'd like to support Orayta, please donate!
